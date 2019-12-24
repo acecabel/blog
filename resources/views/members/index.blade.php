@@ -9,7 +9,8 @@
 		@foreach($members as $member)
 		<tr>
 			<td>{{$member['id']}}</td>
-			<td>{{$member['name']}}</td>
+			<td>{{$member['firstname']}}</td>
+			<td>{{$member['lastname']}}</td>
 		</tr>
 		@endforeach
 	</tbody>
