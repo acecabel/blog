@@ -12,7 +12,7 @@ class MembersController extends Controller
     public function index(){
     
     $members = DB::table('members')->get();
-    dd($members);
+ 
 
     	return view('members.index', compact('members'));
     }

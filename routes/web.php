@@ -24,3 +24,9 @@ Route::get('/p5', 'PagesController@delete');
 Route::get('/p6', 'PagesController@store');
 
 Route::get('/members', 'MembersController@index');
+
+Route::get('/bookings', 'BookingsController@index');
+Route::get('/bookings/create', 'BookingsController@create');
+Route::get('/bookings/update', 'BookingsController@update');
+Route::get('/bookings/delete', 'BookingsController@delete');
+Route::get('/bookings/filter', 'BookingsController@filter');
