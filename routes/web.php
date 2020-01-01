@@ -30,3 +30,8 @@ Route::get('/bookings/create', 'BookingsController@create');
 Route::get('/bookings/update', 'BookingsController@update');
 Route::get('/bookings/delete', 'BookingsController@delete');
 Route::get('/bookings/filter', 'BookingsController@filter');
+
+Route::get('/movies/create', 'MoviesController@create');
+Route::post('/movies/store', 'MoviesController@store');
+Route::get('/movies/edit', 'MoviesController@edit');
+Route::post('/movies/update', 'MoviesController@update');
