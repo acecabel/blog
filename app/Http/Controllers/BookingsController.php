@@ -16,8 +16,8 @@ class BookingsController extends Controller
     
     public function create()
     {
-    	return "create";
-    	return redirect('/bookings');
+    	DB::table('bookings')->insert([
+            'date_booked' => '2020-02-17','booker' => 'Zech', 'date_to_book', '20'])
     }
 	
 	public function update()

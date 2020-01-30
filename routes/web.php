@@ -35,3 +35,10 @@ Route::get('/movies/create', 'MoviesController@create');
 Route::post('/movies/store', 'MoviesController@store');
 Route::get('/movies/edit', 'MoviesController@edit');
 Route::post('/movies/update', 'MoviesController@update');
+
+
+
+Route::get('laptops', 'LaptopsController@index');
+Route::get('laptops/create', 'LaptopsController@create');
+Route::get('/laptops/update', 'LaptopsController@update');
+Route::get('/laptops/delete', 'LaptopsController@delete');
